@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Annotatify
+
+A powerful image annotation tool built with Next.js. Draw, categorize, and manage annotations on images with an intuitive interface.
+
+## Tech Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **UI Library**: Material UI v7
+- **State Management**: React Query v5
+- **Drawing**: React Konva
+- **Virtualization**: React Window
+- **Language**: TypeScript
 
 ## Getting Started
 
-First, run the development server:
+**1. Clone the repository**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/EzzElddin-AbdAllah/Annotatify.git
+cd Annotatify
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**2. Install dependencies**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**3. Build and run**
 
-## Learn More
+```bash
+npm run build
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+**4. Open in browser**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Navigate to [http://localhost:3000](http://localhost:3000)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+**Image Annotation** 🎨
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Draw rectangles on images with interactive canvas
+- 8 color options for visual organization
+- Save and delete annotations
+- Touch support for mobile devices
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Image Management** 🖼️
+
+- Upload images with URL and metadata
+- Filter by name, category, and metadata
+- Virtualized responsive gallery
+- Delete with confirmation
+
+**Category Management** 📁
+
+- Create, read, update, and delete categories
+- Organize images and annotations
+- View in sortable table
+
+## Project Structure
+
+```
+Annotatify/
+├── app/                      # Next.js App Router
+│   ├── categories/           # Categories page
+│   ├── images/               # Images gallery
+│   └── [id]/annotate/        # Annotation page (dynamic route)
+│
+├── components/               # React components
+│   ├── Annotation/           # Annotation canvas, toolbar, list
+│   ├── Category/             # Category forms and modals
+│   ├── Common/               # Header component
+│   └── Image/                # Image cards, gallery, filters
+│
+├── hooks/                    # Custom React Query hooks
+│   ├── useAnnotations.ts
+│   ├── useCategories.ts
+│   └── useImages.ts
+│
+├── types/                    # TypeScript type definitions
+│   ├── annotation.ts
+│   ├── category.ts
+│   └── image.ts
+│
+├── utils/                    # Utilities
+│   ├── api/                  # API layer (CRUD operations)
+│   └── storage.ts            # localStorage wrapper
+│
+├── data/
+│   └── db.json               # Initial seed data
+│
+└── constants/
+    └── api.ts                # API configuration
+```
+
+## Data Persistence
+
+Uses localStorage for data persistence since the API is a mock server:
+
+- Initial data loaded from `data/db.json`
+- All CRUD operations stored in localStorage
+- "Reset Data" button clears localStorage and reloads
+
+## API Integration
+
+Base URL: `https://my-json-server.typicode.com/MostafaKMilly/demo`
+
+Endpoints: `/categories`, `/images`, `/annotations`

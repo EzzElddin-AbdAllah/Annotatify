@@ -1,0 +1,422 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Nature",
+      "description": "Images of nature.",
+      "image": "https://picsum.photos/500/300?random=1"
+    },
+    {
+      "id": 2,
+      "name": "Work Portfolio",
+      "description": "Images for professional portfolio.",
+      "image": "https://picsum.photos/500/300?random=2"
+    },
+    {
+      "id": 3,
+      "name": "Architecture",
+      "description": "Buildings and architectural designs.",
+      "image": "https://picsum.photos/500/300?random=3"
+    },
+    {
+      "id": 4,
+      "name": "Food",
+      "description": "Images of delicious food.",
+      "image": "https://picsum.photos/500/300?random=4"
+    },
+    {
+      "id": 5,
+      "name": "Animals",
+      "description": "Images of various animals.",
+      "image": "https://picsum.photos/500/300?random=5"
+    },
+    {
+      "id": 6,
+      "name": "Technology",
+      "description": "Images of tech-related topics.",
+      "image": "https://picsum.photos/500/300?random=6"
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "name": "Forest",
+      "url": "https://picsum.photos/800/600?random=1",
+      "uploadDate": "2024-10-21T10:00:00Z",
+      "metadata": {
+        "size": "2MB",
+        "resolution": "1024x768"
+      },
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Office Work",
+      "url": "https://picsum.photos/800/600?random=2",
+      "uploadDate": "2024-10-22T12:00:00Z",
+      "metadata": {
+        "size": "3MB",
+        "resolution": "1920x1080"
+      },
+      "categoryId": 2
+    },
+    {
+      "id": 3,
+      "name": "Cityscape",
+      "url": "https://picsum.photos/800/600?random=3",
+      "uploadDate": "2024-10-23T08:30:00Z",
+      "metadata": {
+        "size": "3.5MB",
+        "resolution": "2048x1365"
+      },
+      "categoryId": 3
+    },
+    {
+      "id": 4,
+      "name": "Sushi Plate",
+      "url": "https://picsum.photos/800/600?random=4",
+      "uploadDate": "2024-10-24T14:00:00Z",
+      "metadata": {
+        "size": "4MB",
+        "resolution": "1920x1280"
+      },
+      "categoryId": 4
+    },
+    {
+      "id": 5,
+      "name": "Sunset over the Lake",
+      "url": "https://picsum.photos/800/600?random=5",
+      "uploadDate": "2024-10-25T18:45:00Z",
+      "metadata": {
+        "size": "5MB",
+        "resolution": "2560x1440"
+      },
+      "categoryId": 1
+    },
+    {
+      "id": 6,
+      "name": "Office Team",
+      "url": "https://picsum.photos/800/600?random=6",
+      "uploadDate": "2024-10-26T10:20:00Z",
+      "metadata": {
+        "size": "2.5MB",
+        "resolution": "2048x1365"
+      },
+      "categoryId": 2
+    },
+    {
+      "id": 7,
+      "name": "Modern Building",
+      "url": "https://picsum.photos/800/600?random=7",
+      "uploadDate": "2024-10-27T09:30:00Z",
+      "metadata": {
+        "size": "6MB",
+        "resolution": "3000x2000"
+      },
+      "categoryId": 3
+    },
+    {
+      "id": 8,
+      "name": "Chocolate Cake",
+      "url": "https://picsum.photos/800/600?random=8",
+      "uploadDate": "2024-10-28T15:30:00Z",
+      "metadata": {
+        "size": "3MB",
+        "resolution": "1920x1080"
+      },
+      "categoryId": 4
+    },
+    {
+      "id": 9,
+      "name": "Lion in the Wild",
+      "url": "https://picsum.photos/800/600?random=9",
+      "uploadDate": "2024-10-29T10:00:00Z",
+      "metadata": {
+        "size": "4MB",
+        "resolution": "2560x1600"
+      },
+      "categoryId": 5
+    },
+    {
+      "id": 10,
+      "name": "Tech Gadgets",
+      "url": "https://picsum.photos/800/600?random=10",
+      "uploadDate": "2024-10-30T12:30:00Z",
+      "metadata": {
+        "size": "3.5MB",
+        "resolution": "2048x1365"
+      },
+      "categoryId": 6
+    },
+    {
+      "id": 11,
+      "name": "Mountain View",
+      "url": "https://picsum.photos/800/600?random=11",
+      "uploadDate": "2024-10-21T08:00:00Z",
+      "metadata": {
+        "size": "2.3MB",
+        "resolution": "1920x1080"
+      },
+      "categoryId": 1
+    },
+    {
+      "id": 12,
+      "name": "Corporate Meeting",
+      "url": "https://picsum.photos/800/600?random=12",
+      "uploadDate": "2024-10-21T09:30:00Z",
+      "metadata": {
+        "size": "2.7MB",
+        "resolution": "1280x960"
+      },
+      "categoryId": 2
+    },
+    {
+      "id": 13,
+      "name": "Modern Skyscraper",
+      "url": "https://picsum.photos/800/600?random=13",
+      "uploadDate": "2024-10-21T10:45:00Z",
+      "metadata": {
+        "size": "3.8MB",
+        "resolution": "2560x1440"
+      },
+      "categoryId": 3
+    },
+    {
+      "id": 14,
+      "name": "Delicious Pizza",
+      "url": "https://picsum.photos/800/600?random=14",
+      "uploadDate": "2024-10-21T12:15:00Z",
+      "metadata": {
+        "size": "3MB",
+        "resolution": "1920x1080"
+      },
+      "categoryId": 4
+    },
+    {
+      "id": 15,
+      "name": "Elephant in the Safari",
+      "url": "https://picsum.photos/800/600?random=15",
+      "uploadDate": "2024-10-21T13:30:00Z",
+      "metadata": {
+        "size": "4.2MB",
+        "resolution": "2560x1700"
+      },
+      "categoryId": 5
+    },
+    {
+      "id": 16,
+      "name": "Computer Components",
+      "url": "https://picsum.photos/800/600?random=16",
+      "uploadDate": "2024-10-21T15:00:00Z",
+      "metadata": {
+        "size": "3.5MB",
+        "resolution": "2048x1536"
+      },
+      "categoryId": 6
+    },
+    {
+      "id": 17,
+      "name": "Waterfall",
+      "url": "https://picsum.photos/800/600?random=17",
+      "uploadDate": "2024-10-21T16:45:00Z",
+      "metadata": {
+        "size": "5MB",
+        "resolution": "2560x1440"
+      },
+      "categoryId": 1
+    },
+    {
+      "id": 18,
+      "name": "Workspace Setup",
+      "url": "https://picsum.photos/800/600?random=18",
+      "uploadDate": "2024-10-21T18:15:00Z",
+      "metadata": {
+        "size": "3.2MB",
+        "resolution": "1920x1080"
+      },
+      "categoryId": 2
+    },
+    {
+      "id": 19,
+      "name": "Historic Building",
+      "url": "https://picsum.photos/800/600?random=19",
+      "uploadDate": "2024-10-21T19:30:00Z",
+      "metadata": {
+        "size": "4.6MB",
+        "resolution": "2048x1536"
+      },
+      "categoryId": 3
+    },
+    {
+      "id": 20,
+      "name": "Burger Meal",
+      "url": "https://picsum.photos/800/600?random=20",
+      "uploadDate": "2024-10-21T21:00:00Z",
+      "metadata": {
+        "size": "3.7MB",
+        "resolution": "1920x1280"
+      },
+      "categoryId": 4
+    },
+    {
+      "id": 21,
+      "name": "Giraffe in the Savanna",
+      "url": "https://picsum.photos/800/600?random=21",
+      "uploadDate": "2024-10-21T22:30:00Z",
+      "metadata": {
+        "size": "4.4MB",
+        "resolution": "2560x1600"
+      },
+      "categoryId": 5
+    },
+    {
+      "id": 22,
+      "name": "Smartphones",
+      "url": "https://picsum.photos/800/600?random=22",
+      "uploadDate": "2024-10-22T07:00:00Z",
+      "metadata": {
+        "size": "3.1MB",
+        "resolution": "2048x1536"
+      },
+      "categoryId": 6
+    },
+    {
+      "id": 23,
+      "name": "Rainforest",
+      "url": "https://picsum.photos/800/600?random=23",
+      "uploadDate": "2024-10-22T08:15:00Z",
+      "metadata": {
+        "size": "3MB",
+        "resolution": "1920x1080"
+      },
+      "categoryId": 1
+    },
+    {
+      "id": 24,
+      "name": "Conference Room",
+      "url": "https://picsum.photos/800/600?random=24",
+      "uploadDate": "2024-10-22T09:30:00Z",
+      "metadata": {
+        "size": "2.6MB",
+        "resolution": "1280x960"
+      },
+      "categoryId": 2
+    },
+    {
+      "id": 25,
+      "name": "Art Museum",
+      "url": "https://picsum.photos/800/600?random=25",
+      "uploadDate": "2024-10-22T10:45:00Z",
+      "metadata": {
+        "size": "4MB",
+        "resolution": "2560x1440"
+      },
+      "categoryId": 3
+    },
+    {
+      "id": 26,
+      "name": "Fruit Salad",
+      "url": "https://picsum.photos/800/600?random=26",
+      "uploadDate": "2024-10-22T12:15:00Z",
+      "metadata": {
+        "size": "3.2MB",
+        "resolution": "1920x1080"
+      },
+      "categoryId": 4
+    },
+    {
+      "id": 27,
+      "name": "Panda in the Zoo",
+      "url": "https://picsum.photos/800/600?random=27",
+      "uploadDate": "2024-10-22T13:30:00Z",
+      "metadata": {
+        "size": "4.3MB",
+        "resolution": "2560x1700"
+      },
+      "categoryId": 5
+    },
+    {
+      "id": 28,
+      "name": "Laptop and Tablet",
+      "url": "https://picsum.photos/800/600?random=28",
+      "uploadDate": "2024-10-22T15:00:00Z",
+      "metadata": {
+        "size": "3.6MB",
+        "resolution": "2048x1536"
+      },
+      "categoryId": 6
+    },
+    {
+      "id": 29,
+      "name": "River Stream",
+      "url": "https://picsum.photos/800/600?random=29",
+      "uploadDate": "2024-10-22T16:45:00Z",
+      "metadata": {
+        "size": "5.1MB",
+        "resolution": "2560x1440"
+      },
+      "categoryId": 1
+    },
+    {
+      "id": 30,
+      "name": "Desk with Papers",
+      "url": "https://picsum.photos/800/600?random=30",
+      "uploadDate": "2024-10-22T18:15:00Z",
+      "metadata": {
+        "size": "2.8MB",
+        "resolution": "1920x1080"
+      },
+      "categoryId": 2
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "imageId": 1,
+      "type": "rectangle",
+      "coordinates": {
+        "x": 100,
+        "y": 150,
+        "width": 200,
+        "height": 100
+      },
+      "color": "red"
+    },
+    {
+      "id": 2,
+      "imageId": 2,
+      "type": "rectangle",
+      "coordinates": {
+        "x": 100,
+        "y": 150,
+        "width": 200,
+        "height": 100
+      },
+      "color": "blue"
+    },
+    {
+      "id": 3,
+      "imageId": 3,
+      "type": "rectangle",
+      "coordinates": {
+        "x": 100,
+        "y": 150,
+        "width": 200,
+        "height": 100
+      },
+      "color": "green"
+    },
+    {
+      "id": 4,
+      "imageId": 4,
+      "type": "rectangle",
+      "coordinates": {
+        "x": 100,
+        "y": 150,
+        "width": 200,
+        "height": 100
+      },
+      "color": "orange"
+    }
+  ]
+}
