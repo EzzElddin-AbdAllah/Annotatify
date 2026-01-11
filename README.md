@@ -2,7 +2,7 @@
 
 A powerful image annotation tool built with Next.js. Draw, categorize, and manage annotations on images with an intuitive interface.
 
-**🚀 [Live Demo](https://annotatify.vercel.app/)**
+**🚀 [Live Demo](https://annotatify-ezz.vercel.app)**
 
 ## Tech Stack
 
